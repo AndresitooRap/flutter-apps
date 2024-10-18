@@ -1,0 +1,26 @@
+name: gifs
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^2.2.0
+  speed_dial_fab: ^2.3.0
+  flutter_local_notifications: ^13.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  http: ^0.13.5
+  
+
+flutter:
+  uses-material-design: true

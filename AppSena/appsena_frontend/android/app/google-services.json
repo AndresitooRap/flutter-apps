@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402865005573",
+    "project_id": "app-sena-backend",
+    "storage_bucket": "app-sena-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402865005573:android:ef741c7a8ea1043352686c",
+        "android_client_info": {
+          "package_name": "com.appsena.appsena_frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402865005573-28g0838ol6l1v2slg636hqok72b4foen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7kmahh_LFc9x9YzDtM_VMfOinYP7G5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402865005573-28g0838ol6l1v2slg636hqok72b4foen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

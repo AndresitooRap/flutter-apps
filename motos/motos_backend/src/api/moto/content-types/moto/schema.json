@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "motos",
+  "info": {
+    "singularName": "moto",
+    "pluralName": "motos",
+    "displayName": "moto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

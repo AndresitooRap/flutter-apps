@@ -1,0 +1,58 @@
+name: appsena_frontend
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-30.0.dev <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  firebase_core:
+  cloud_firestore:
+  firebase_auth:
+  provider: ^6.0.5
+  dotted_line: ^3.1.0
+  url_launcher: ^6.1.10
+  image_picker: ^0.8.7+1
+  multi_select_flutter: ^4.1.2
+  get: ^4.6.1
+  qrscan: ^0.3.3
+  universal_html: ^2.2.1
+  path_provider: ^2.0.14
+  open_file: ^3.3.1
+  syncfusion_flutter_pdf: ^21.2.3
+  qr_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.12.0"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/sena.png"
+  min_sdk_android: 21 
+  web:
+    generate: true
+    image_path: "assets/icons/sena.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icons/sena.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/sena.png"
+
+flutter:
+  uses-material-design: true
+
+  assets :
+    - assets/img/
+    - assets/news/

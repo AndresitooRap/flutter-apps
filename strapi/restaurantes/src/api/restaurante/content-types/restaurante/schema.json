@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurantes",
+  "info": {
+    "singularName": "restaurante",
+    "pluralName": "restaurantes",
+    "displayName": "Restaurante",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "categorias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::categoria.categoria",
+      "mappedBy": "restaurantes"
+    }
+  }
+}
